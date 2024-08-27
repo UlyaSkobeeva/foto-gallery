@@ -37,7 +37,7 @@ const NewGallery = (props) => {
     if (inputImg.trim().length === 0) {
       setInputImgIsValid(false);
       setError({
-        message: "введите url фотографии!",
+        message: "введите URL фотографии!",
       });
 
       return;
